@@ -1,6 +1,6 @@
 // # slaa - Set Large Address Aware
 
-// Set Large Address Aware flag of 32bit executables for command line:
+// Set Large Address Aware flag of 32bit executables from command line:
 //	- Set LLA flag
 //	- UnSet LLA flag if already set
 
