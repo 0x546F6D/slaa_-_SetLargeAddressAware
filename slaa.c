@@ -70,7 +70,7 @@ void slaa() {
 		WriteToConsoleA("\nERROR_INVALID_DATA: \""); WriteToConsoleA(args_cpa[1]); WriteToConsoleA("\" is not a 32bit executable\n");
 		exitCode_ui = 0xD; }
 	else {
-// Check if LLA flag is already set - 0x0020: IMAGE_FILE_LARGE_ADDRESS_AWARE; 0xDF
+// Check if LLA flag is already set - 0x0020: IMAGE_FILE_LARGE_ADDRESS_AWARE;
 		if ((*(short*)exeReadBuf_vp & 0x0020) == 0x0020 ) {
 			WriteToConsoleA("\nUnsetting LLA flag..");
 			*(short*)exeReadBuf_vp = *(short*)exeReadBuf_vp & 0xFFDF; }
