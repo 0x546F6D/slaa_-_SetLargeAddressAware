@@ -3,8 +3,8 @@
 
 Set Large Address Aware flag of 32bit executables from command line:
 
-  - Set LLA flag
-  - UnSet LLA flag if already set
+  - Set LAA flag
+  - UnSet LAA flag if already set
 
 Compiled with MSYS2/MinGW-w64:
 
